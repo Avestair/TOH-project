@@ -1,0 +1,36 @@
+states
+
+q0,q1,q2
+
+
+
+input symbols
+
+a,b
+
+stack symbols
+Z,A
+
+rules
+
+q0,a,Z,q0,AZ
+q0,a,A,q0,AA
+q0,b,A,q1,
+q1,b,A,q1,
+q1,ε,Z,q2,Z
+
+
+initial state
+q0
+
+final state
+q2
+
+
+initial stack symbol
+Z
+
+
+input string(SHOULD HAVE A ε AT THE END!!)
+
+aaabbbε

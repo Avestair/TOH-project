@@ -34,3 +34,7 @@ Z
 input string(SHOULD HAVE A ε AT THE END!!)
 
 aaabbbε
+
+
+
+ L = {a^n b^n | n ≥ 0}
